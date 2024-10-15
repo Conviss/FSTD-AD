@@ -2,14 +2,13 @@
 
 ## Get Started
 
-1. Install Python 3.11, PyTorch 2.2.1
+1. Install Python 3.11, PyTorch 2.2.1.
 
 ```
 pip install -r requirements.txt
 ```
 
 2. Download data.
-
 3. Train and evaluate. You can reproduce the experiment results as follows:
 
 ```
@@ -54,3 +53,5 @@ labeled_anomalies.csv: Data processing and data separation between the two space
 wget https://s3-us-west-2.amazonaws.com/telemanom/data.zip
 wget https://raw.githubusercontent.com/khundman/telemanom/master/labeled_anomalies.csv
 ```
+
+下载数据集放进对应文件夹，运行make_pk.py
