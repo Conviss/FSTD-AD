@@ -2,9 +2,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class FDA(nn.Module):
+class FE(nn.Module):
     def __init__(self, window_size, feature_num, kernel_size, stride):
-        super(FDA, self).__init__()
+        super(FE, self).__init__()
 
         self.kernel_size=kernel_size
         self.stride=stride
